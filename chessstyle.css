@@ -1,0 +1,35 @@
+body{
+    background-color: rgb(191, 0, 255);
+}
+#board{
+width : 320px;
+height: 320px;
+display: flex;
+flex-wrap: wrap;
+}
+.square{
+height: 40px;
+width: 40px;
+position: relative;
+}
+.square svg{
+    height: 35px;
+    width: 35px;
+    margin: 2px;
+    position: relative;
+    z-index: -9;
+}
+path{
+    position: relative;
+    z-index: -10;
+}
+.piece{
+    position: relative;
+    z-index: 9;
+}
+.white{
+background-color: rgb(255, 255, 255);
+}
+.purple{
+    background-color: hsl(252, 33%, 60%);
+}

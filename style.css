@@ -1,0 +1,301 @@
+
+.C{
+
+    display: flex;
+    flex-direction: column;
+    background-color: black;
+    width: 100%;
+    color: rgb(255, 255, 255);
+    height: 745px;
+    text-align: center;
+
+}
+.elements{ 
+    padding: 35px;
+    text-align: center;
+    color: rgb(0, 0, 0);
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+
+
+}
+.Eelements{
+
+ padding: 40px;
+
+
+}
+
+
+.btn1{
+    color: rgb(253, 253, 253);
+    align-items: center;
+    border-radius: 30px;
+    padding: 10px;
+    background-color: rgb(121, 0, 148);
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    margin-left: 400px;
+    
+
+
+}
+.btn2{
+    color: rgb(253, 253, 253);
+    align-items: center;
+    border-radius: 30px;
+    padding: 10px;
+    background-color: rgb(121, 0, 148);
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    margin-left: -30px;
+    
+}
+.r{
+    border-style: none ;
+    margin-top: 0px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    height: 100px;
+    background-image: url("Anipics/a\ violet\ fantasy\ theme\ image\ with\ 900x120\ dimensions.png");
+   
+} 
+.r2{
+    
+    background-color: blueviolet;
+    height: 170px;
+}
+.r3{
+    color: aliceblue;
+    background-color: rgb(100, 21, 174);
+    height: 150px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 25px;
+    text-align: center;
+    
+
+
+}
+.r4{
+    background-color: rgb(87, 0, 168);
+    height: 130px;
+
+
+
+}
+.r5{
+    background-color: rgb(130, 61, 195);
+    height: 120px;
+
+}
+
+
+.tes{
+    background-image: url(Neon.jpg);
+    margin-left: 600px;
+    border: solid;border-color: rgba(0, 0, 0, 0.978);
+    width: 250px;
+    height: 100px;
+}
+.NotHome{
+    display: flex;
+    flex-direction: column;  width: 380px;
+    height: 620px;
+    background-image: url(Anipics/Loginpic.jpg);
+    margin-left: 540px;
+    border-radius: 10px;
+    border: 40px solid;
+    border: solid;
+    animation-name: ma;
+    animation-iteration-count: infinite;
+    animation-duration: 3s;
+  
+    margin-top: 20px;
+}
+a:active
+{
+    color: rgb(0, 0, 0);
+ 
+}
+.input{
+    background-color: rgb(119, 81, 114);color: rgb(38, 5, 33);width: 275px;height: 35px;border-radius: 8px;font-size: 19px;
+    padding-left: 45px;
+}
+input::placeholder{
+    color: rgb(38, 5, 33);
+    
+}
+.log{
+    width: 300px;height: 60px;border-radius: 10px;background-color: rgb(80, 44, 69);color: #a886a0;
+    cursor: pointer;
+}
+.log:hover{
+    background-color: rgb(151, 81, 205);
+    transition-delay: 100ms;
+    color: rgb(32, 30, 30);
+    border-width: 2px;
+    animation-name: exm;
+    
+       animation-duration: 3s;
+       animation-iteration-count: infinite;    
+} 
+@keyframes exm{
+   0% {background-color : rgb(151, 81, 205); color: rgb(32, 30, 30);}
+   50% {background-color: rgb(80, 44, 69);color: #a886a0; }
+   100%{background-color : rgb(151, 81, 205); color: rgb(32, 30, 30);}
+}   
+@keyframes ma{
+    
+    0% {
+        border-top-color:  rgb(167, 87, 175);
+    }25%{
+        border-right-color:    rgb(167, 87, 175);
+    }
+    12.5%{
+        border-top-color:  rgb(252, 251, 255);
+    }
+      50%{ border-bottom-color:    rgb(167, 87, 175);
+   }
+    37.5%{
+        border-right-color:  rgb(228, 222, 222); 
+    }
+ 
+   62.5%{  border-bottom-color: rgb(255, 244, 244);
+}
+
+75%{
+    border-left-color:   rgb(167, 87, 175);
+}
+89%{
+    border-left-color:  rgb(255, 250, 250);
+}
+100% {
+    border-top-color:  rgb(167, 87, 175);
+
+}
+}
+
+a{
+    text-decoration: none;
+    color: aliceblue;
+    font-size: 20px;
+
+
+}
+@keyframes slideinfromleft {
+    
+    from{
+
+      
+        
+    }
+    to{
+
+       
+
+    }
+
+
+}
+.S1{
+
+animation-name: slideinfromleft;
+animation-duration: 0.9s;
+animation-timing-function: ease-in;
+
+}
+.S2{
+
+    animation-name: slideinfromleft;
+    animation-duration: 1.4s;
+    animation-timing-function: ease-in;
+    
+    
+}
+.S3{
+
+        animation-name: slideinfromleft;
+        animation-duration: 2s;
+        animation-timing-function: ease-in;
+}
+.image{
+
+
+    display: block;
+    height: 100%;
+    width: 100%;
+
+}
+.image1{
+    position: relative;
+    width: 350px;
+    height: 350px;
+     
+
+}
+.text{
+    position: absolute;
+  top: 0;
+  left: 0;
+   width: 100%;
+  
+   height: 100%; background-color: rgba(0, 0, 0, 0.5);
+ 
+  display: flex;
+  color: rgb(255, 255, 255);
+ 
+ 
+  align-items: center; justify-content: center;
+  opacity: 0; 
+  font-size: 40px;
+  font-family:'Times New Roman', Times, serif ;
+  color: black;
+
+}
+.image1:hover .text{
+    opacity: 1;
+    transition-delay: 0.1s;
+
+
+}
+.image2:hover .text{
+    opacity: 1;
+
+    transition-delay: 0.1s;
+
+}
+.image3:hover .text{
+    opacity: 1;
+    transition-delay: 0.1s;
+
+
+}
+.opC{
+    display: flex;
+    flex-direction: column;
+
+}
+.opR{
+    display: flex;
+    flex-direction: row;
+    width: 300px;
+    height: 300px;
+
+}
+.Omage{
+    height: 200px;
+    width: 200px;
+    box-shadow: 3px 3px 5px black;
+    margin-left: 120px;
+    margin-top: 20px;
+    border-style: solid;
+    border-color: hsl(0, 0%, 0%);
+    position: relative;
+    
+}
+.Oname{
+    position: absolute; 
+    margin-left: -110px;
+    margin-top: 240px;
+    font-size: 25px;
+    color: rgb(0, 0, 0);
+
+}

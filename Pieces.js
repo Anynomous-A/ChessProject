@@ -1,0 +1,12 @@
+const Wking = '<div class="piece White" id="wking"><svg width="100%" height="100%" xmlns="http://www.w3.org/2000/svg"><image href="chesspics/Wking.png" width="100%" height="100%"></image></svg></div>'
+const Wqueen = '<div class="piece White" id="wqueen"><svg width="100%" height="100%" xmlns="http://www.w3.org/2000/svg"><image href="chesspics/Wqueen.png" width="100%" height="100%"></image></svg></div>';
+const Wrook = '<div class="piece White" id="wrook"><svg width="100%" height="100%" xmlns="http://www.w3.org/2000/svg"><image href="chesspics/Wrook.png" width="100%" height="100%"></image></svg></div>';
+const Wbishop = '<div class="piece White" id="wbishop"><svg width="100%" height="100%" xmlns="http://www.w3.org/2000/svg"><image href="chesspics/Wbishop.png" width="100%" height="100%"></image></svg></div>';
+const Wknight = '<div class="piece White" id="wknight"><svg width="100%" height="100%" xmlns="http://www.w3.org/2000/svg"><image href="chesspics/Wknight.png" width="100%" height="100%"></image></svg></div>';
+const Wpawn = '<div class="piece White" id="wpawn"><svg width="100%" height="100%" xmlns="http://www.w3.org/2000/svg"><image href="chesspics/Wpawn.png" width="100%" height="100%"></image></svg></div>';
+const Bking = '<div class="piece Purple" id="bking"><svg width="100%" height="100%" xmlns="http://www.w3.org/2000/svg"><image href="chesspics/Bking.png" width="100%" height="100%"></image></svg></div>';
+const Bqueen = '<div class="piece Purple" id="bqueen"><svg width="100%" height="100%" xmlns="http://www.w3.org/2000/svg"><image href="chesspics/Bqueen.png" width="100%" height="100%"></image></svg></div>';
+const Brook = '<div class="piece Purple" id="brook"><svg width="100%" height="100%" xmlns="http://www.w3.org/2000/svg"><image href="chesspics/Brook.png" width="100%" height="100%"></image></svg></div>';
+const Bbishop = '<div class="piece Purple" id="bbishop"><svg width="100%" height="100%" xmlns="http://www.w3.org/2000/svg"><image href="chesspics/Bbishop.png" width="100%" height="100%"></image></svg></div>';
+const Bknight = '<div class="piece Purple" id="bknight"><svg width="100%" height="100%" xmlns="http://www.w3.org/2000/svg"><image href="chesspics/Bknight.png" width="100%" height="100%"></image></svg></div>';
+const Bpawn = '<div class="piece Purple" id="bpawn"><svg width="100%" height="100%" xmlns="http://www.w3.org/2000/svg"><image href="chesspics/Bpawn.png" width="100%" height="100%"></image></svg></div>';
